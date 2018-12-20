@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="pageWebMax.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Memes Station</title>
+    <link href="/StyleSheet2.css" rel="stylesheet" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div>
+    <header id="header">  
+        <h1>Memes Station</h1>
+        <h2>La destination favorite de Info420</h2>
+        <asp:Label ID="email1" runat="server"></asp:Label>
+        </header>  
+        <nav id="nav">  
+            <ul>  
+                <li><a href="/WebForm1.aspx">Home</a></li>  
+                <li><a href="/WebForm4.aspx">SUBSCRIPE TO PEWDIEPIE</a></li>  
+                <li><a href="/texte.aspx">idk stuff</a></li>  
+                <li><a href="https://www.youtube.com/watch?v=PfYnvDL0Qcw&app=desktop">  we are numbar wan</a></li>  
+                <li><a href="/WebForm3.aspx"> List of meme lord</a></li>  
+            </ul>  
+        </nav> 
+        <asp:ContentPlaceHolder ID="sidestuff" runat="server"/>
+
+
+
+  
+            <div id="con">  
+
+            </div>  
+  
+  
+    </div>
+
+    </form>
+</body>
+</html>
